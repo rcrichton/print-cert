@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A silly tool to print certificate details.",
   "main": "print-cert.js",
-  "bin": "print-cert.js",
+  "bin": {
+    "print-cert": "print-cert.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +13,14 @@
   "license": "MIT",
   "dependencies": {
     "pem": "^1.5.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcrichton/print-cert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcrichton/print-cert/issues"
+  },
+  "homepage": "https://github.com/rcrichton/print-cert"
 }
